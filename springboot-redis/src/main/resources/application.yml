@@ -1,0 +1,10 @@
+jedis :
+  pool :
+    host : 47.93.199.133
+    port : 6379
+    config :
+      maxTotal : 100
+      maxIdle : 10
+      maxWaitMillis : 10000
+server:
+  port: 9090
